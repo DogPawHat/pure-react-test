@@ -1,0 +1,27 @@
+{
+  "name": "pure-react-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:DogPawHat/pure-react-test.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "webpack -d",
+    "start": "webpack-dev-server -d --content-base dist/"
+  },
+  "author": "Ciarán Curley <ciaran.curley.11.11@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^0.14.44",
+    "@types/react-dom": "^0.14.18",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "ts-loader": "^1.0.0",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
